@@ -21,9 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e31ea38f-fc8d-4eb6-bcdc-de50ecf2b7a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Block Breaker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Block Breaker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Game Status.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Game Status.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 2.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameStatus.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +37,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Paddle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameStatus.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Paddle.cs" />
       </list>
     </option>
   </component>
@@ -74,10 +71,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="1140">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="1140" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -92,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606762083363</updated>
-      <workItem from="1606762096127" duration="3917000" />
+      <workItem from="1606762096127" duration="4642000" />
     </task>
     <servers />
   </component>
@@ -116,6 +113,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="611" y="298" key="Github.CreateGistDialog" timestamp="1606767146896">
+      <screen x="0" y="25" width="1440" height="801" />
+    </state>
+    <state x="611" y="298" key="Github.CreateGistDialog/0.25.1440.801@0.25.1440.801" timestamp="1606767146896" />
     <state x="471" y="153" key="RiderGenerateDialog" timestamp="1606766374860">
       <screen x="0" y="25" width="1440" height="801" />
     </state>
