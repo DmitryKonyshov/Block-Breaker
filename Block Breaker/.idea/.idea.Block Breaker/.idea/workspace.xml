@@ -20,14 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e31ea38f-fc8d-4eb6-bcdc-de50ecf2b7a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Block Breaker/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Block Breaker/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Block Breaker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Block Breaker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Game Status.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Game Status.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Block Square.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Block Square.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Block.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Block.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameSession.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameStatus.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameSession.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +42,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameStatus.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameSession.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Block.cs" />
       </list>
     </option>
   </component>
@@ -68,7 +64,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -100,7 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606762083363</updated>
       <workItem from="1606762096127" duration="5644000" />
-      <workItem from="1606847687885" duration="709000" />
+      <workItem from="1606847687885" duration="1964000" />
     </task>
     <servers />
   </component>
@@ -198,16 +194,16 @@
     </state>
     <state x="471" y="153" key="RiderGenerateDialog/0.25.1440.799@0.25.1440.799" timestamp="1606763651655" />
     <state x="471" y="153" key="RiderGenerateDialog/0.25.1440.801@0.25.1440.801" timestamp="1606768642274" />
-    <state x="229" y="60" key="SettingsEditor" timestamp="1606848253659">
+    <state x="229" y="60" key="SettingsEditor" timestamp="1606849319015">
       <screen x="0" y="25" width="1440" height="801" />
     </state>
     <state x="229" y="60" key="SettingsEditor/0.25.1440.799@0.25.1440.799" timestamp="1606763568401" />
-    <state x="229" y="60" key="SettingsEditor/0.25.1440.801@0.25.1440.801" timestamp="1606848253659" />
-    <state x="120" y="145" width="1200" height="561" key="VCS.FileHistoryDialog" timestamp="1606848536817">
+    <state x="229" y="60" key="SettingsEditor/0.25.1440.801@0.25.1440.801" timestamp="1606849319015" />
+    <state x="120" y="145" width="1200" height="561" key="VCS.FileHistoryDialog" timestamp="1606849453115">
       <screen x="0" y="25" width="1440" height="801" />
     </state>
     <state x="120" y="145" width="1200" height="559" key="VCS.FileHistoryDialog/0.25.1440.799@0.25.1440.799" timestamp="1606763853648" />
-    <state x="120" y="145" width="1200" height="561" key="VCS.FileHistoryDialog/0.25.1440.801@0.25.1440.801" timestamp="1606848536817" />
+    <state x="120" y="145" width="1200" height="561" key="VCS.FileHistoryDialog/0.25.1440.801@0.25.1440.801" timestamp="1606849453115" />
     <state x="403" y="147" width="672" height="678" key="search.everywhere.popup" timestamp="1606768803769">
       <screen x="0" y="25" width="1440" height="801" />
     </state>
