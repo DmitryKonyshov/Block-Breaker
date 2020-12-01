@@ -21,8 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e31ea38f-fc8d-4eb6-bcdc-de50ecf2b7a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Block Breaker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Block Breaker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Block Square.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Block Square.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Block Square.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Block Square.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Block.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Block.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606762083363</updated>
       <workItem from="1606762096127" duration="5644000" />
-      <workItem from="1606847687885" duration="1964000" />
+      <workItem from="1606847687885" duration="3604000" />
     </task>
     <servers />
   </component>
@@ -199,11 +202,11 @@
     </state>
     <state x="229" y="60" key="SettingsEditor/0.25.1440.799@0.25.1440.799" timestamp="1606763568401" />
     <state x="229" y="60" key="SettingsEditor/0.25.1440.801@0.25.1440.801" timestamp="1606849319015" />
-    <state x="120" y="145" width="1200" height="561" key="VCS.FileHistoryDialog" timestamp="1606849453115">
+    <state x="120" y="145" width="1200" height="561" key="VCS.FileHistoryDialog" timestamp="1606850796519">
       <screen x="0" y="25" width="1440" height="801" />
     </state>
     <state x="120" y="145" width="1200" height="559" key="VCS.FileHistoryDialog/0.25.1440.799@0.25.1440.799" timestamp="1606763853648" />
-    <state x="120" y="145" width="1200" height="561" key="VCS.FileHistoryDialog/0.25.1440.801@0.25.1440.801" timestamp="1606849453115" />
+    <state x="120" y="145" width="1200" height="561" key="VCS.FileHistoryDialog/0.25.1440.801@0.25.1440.801" timestamp="1606850796519" />
     <state x="403" y="147" width="672" height="678" key="search.everywhere.popup" timestamp="1606768803769">
       <screen x="0" y="25" width="1440" height="801" />
     </state>
