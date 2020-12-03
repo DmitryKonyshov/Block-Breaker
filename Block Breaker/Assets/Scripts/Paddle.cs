@@ -10,8 +10,8 @@ public class Paddle : MonoBehaviour
     [SerializeField] float screenWidthInUnits = 16f;
     
     // Cached references
-    private GameSession theGameSession;
-    private Ball theBall;
+    GameSession theGameSession;
+    Ball theBall;
     
     // Start is called before the first frame update
     void Start()
@@ -36,7 +36,7 @@ public class Paddle : MonoBehaviour
         }
         else
         {
-            return Input.mousePosition.x / Screen.width * screenWidthInUnits
+            return Input.mousePosition.x / Screen.width * screenWidthInUnits;
         }
     }
 }

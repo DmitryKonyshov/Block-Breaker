@@ -2720,6 +2720,11 @@ PrefabInstance:
       propertyPath: paddle1
       value: 
       objectReference: {fileID: 1084288771}
+    - target: {fileID: 5772130189818373568, guid: 5af48606ba39847e98533cd3288741e1,
+        type: 3}
+      propertyPath: randomFactor
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5772130189818373571, guid: 5af48606ba39847e98533cd3288741e1,
         type: 3}
       propertyPath: m_LocalPosition.x
