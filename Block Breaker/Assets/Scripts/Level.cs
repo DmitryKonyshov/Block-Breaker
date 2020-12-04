@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Level : MonoBehaviour
 {
@@ -8,11 +6,11 @@ public class Level : MonoBehaviour
     [SerializeField] int breakableBlocks; //Serialized for debugging
 
     // Cash reference
-    SceneLoader sceneLoader;
+    SceneLoader _sceneLoader;
 
     private void Start()
     {
-        sceneLoader = FindObjectOfType<SceneLoader>();
+        _sceneLoader = FindObjectOfType<SceneLoader>();
     }
 
     public void CountBlocks()
@@ -25,7 +23,7 @@ public class Level : MonoBehaviour
         breakableBlocks--;
         if (breakableBlocks <= 0)
         {
-            sceneLoader.LoadNextScene();
+            _sceneLoader.LoadNextScene();
         }
     }
 }

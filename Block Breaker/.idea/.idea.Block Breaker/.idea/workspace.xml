@@ -21,12 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="e31ea38f-fc8d-4eb6-bcdc-de50ecf2b7a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Block Breaker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Block Breaker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/2 Hit Breakable.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/2 Hit Breakable.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/3 Hit Breakable 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/3 Hit Breakable 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Impact VFX.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Impact VFX.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Block.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Block.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameSession.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameSession.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LooseCollider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LooseCollider.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Paddle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Paddle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +47,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/GameStatus.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Block.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ball.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameSession.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Level.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LooseCollider.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Paddle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ball.cs" />
       </list>
     </option>
   </component>
