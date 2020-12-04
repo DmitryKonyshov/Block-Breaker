@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Block : MonoBehaviour
 {
@@ -10,7 +8,7 @@ public class Block : MonoBehaviour
     [SerializeField] private Sprite[] hitSprites;
 
     // Cached reference
-    Level level;
+    Level _level;
     
     // State variables
     [SerializeField] private int timesHit;
@@ -21,14 +19,14 @@ public class Block : MonoBehaviour
 
     private void CountBreakableBlocks()
     {
-        level = FindObjectOfType<Level>();
+        _level = FindObjectOfType<Level>();
         if (CompareTag("Breakable"))
         {
-            level.CountBlocks();
+            _level.CountBlocks();
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D()
     {
         if (CompareTag("Breakable"))
         {
@@ -39,7 +37,7 @@ public class Block : MonoBehaviour
     private void HandleHit()
     {
         timesHit++;
-        int maxHits = hitSprites.Length + 1;
+        var maxHits = hitSprites.Length + 1;
         if (timesHit >= maxHits)
         {
             DestroyBlock();
@@ -52,35 +50,35 @@ public class Block : MonoBehaviour
 
     private void ShowNextHitSprite()
     {
-        int spriteIndex = timesHit - 1;
+        var spriteIndex = timesHit - 1;
         if (hitSprites[spriteIndex] != null)
         {
             GetComponent<SpriteRenderer>().sprite = hitSprites[spriteIndex];
         }
         else
         {
-            Debug.LogError("Block sprite is missing from array" + gameObject.name);
+            Debug.LogError($"Block sprite is missing from array{gameObject.name}");
         }
     }
 
     private void DestroyBlock()
     {
-        PlayBlockDestroySFX();
+        PlayBlockDestroySfx();
         Destroy(gameObject);
-        level.BlockDestroyed();
+        _level.BlockDestroyed();
         TriggerSparklesVFX();
     }
 
-    private void PlayBlockDestroySFX()
+    private void PlayBlockDestroySfx()
     {
         FindObjectOfType<GameSession>().AddToScore();
-        AudioSource.PlayClipAtPoint(breakSound, Camera.main.transform.position);
+        if (!(Camera.main is null)) AudioSource.PlayClipAtPoint(breakSound, Camera.main.transform.position);
     }
 
     private void TriggerSparklesVFX()
     {
         var transformSparkles = transform;
-        GameObject sparkles = Instantiate(blockSparklesVFX, transformSparkles.position, transformSparkles.rotation);
+        var sparkles = Instantiate(blockSparklesVFX, transformSparkles.position, transformSparkles.rotation);
         Destroy(sparkles, 1f);
     }
 }

@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Paddle : MonoBehaviour
 {
@@ -10,21 +8,22 @@ public class Paddle : MonoBehaviour
     [SerializeField] float screenWidthInUnits = 16f;
     
     // Cached references
-    GameSession theGameSession;
-    Ball theBall;
+    public GameSession TheGameSession { get; private set; }
+    Ball _theBall;
     
     // Start is called before the first frame update
     void Start()
     {
-        theGameSession = FindObjectOfType<GameSession>();
-        theBall = FindObjectOfType<Ball>();
+        TheGameSession = FindObjectOfType<GameSession>();
+        _theBall = FindObjectOfType<Ball>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector2 paddlePos = new Vector2(transform.position.x, transform.position.y);
-        paddlePos.x = Mathf.Clamp(GetXPos(), minX, maxX);
+        var transform1 = transform;
+        var position = transform1.position;
+        var paddlePos = new Vector2(position.x, position.y) {x = Mathf.Clamp(GetXPos(), minX, maxX)};
         transform.position = paddlePos;
     }
 
@@ -32,7 +31,7 @@ public class Paddle : MonoBehaviour
     {
         if (FindObjectOfType<GameSession>().IsAutoPlayEnabled())
         {
-            return theBall.transform.position.x;
+            return _theBall.transform.position.x;
         }
         else
         {

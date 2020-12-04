@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
 
 public class GameSession : MonoBehaviour
@@ -13,15 +10,16 @@ public class GameSession : MonoBehaviour
     [SerializeField] bool isAutoPlayEnabled;
 
     //State variables
-    [SerializeField] int currentScore = 0;
+    [SerializeField] int currentScore;
 
     private void Awake()
     {
-        int gameStatusCount = FindObjectsOfType<GameSession>().Length;
+        var gameStatusCount = FindObjectsOfType<GameSession>().Length;
         if (gameStatusCount > 1)
         {
-            gameObject.SetActive(false);
-            Destroy(gameObject);
+            GameObject o;
+            (o = gameObject).SetActive(false);
+            Destroy(o);
         }
         else
         {
@@ -42,7 +40,7 @@ public class GameSession : MonoBehaviour
 
     public void AddToScore()
     {
-        currentScore = currentScore + pointsPerBlockDestroyed;
+        currentScore += pointsPerBlockDestroyed;
         scoreText.text = currentScore.ToString();
     }
 
