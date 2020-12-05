@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   breakSound: {fileID: 8300000, guid: 71c296fa828dc4677a801de2823aed9d, type: 3}
-  blockSparklesVFX: {fileID: 100000, guid: 7d846c02296ef4dc4abff04ce3e5262c, type: 3}
+  blockSparklesVFX: {fileID: 100000, guid: 83dba8ede4f354b358a4404ff4cc148b, type: 3}
   hitSprites:
   - {fileID: 21300000, guid: 198f12f5cf4ff4c16997df45c8aee694, type: 3}
   timesHit: 0
