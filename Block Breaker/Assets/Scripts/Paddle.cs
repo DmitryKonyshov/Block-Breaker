@@ -8,13 +8,12 @@ public class Paddle : MonoBehaviour
     [SerializeField] float screenWidthInUnits = 16f;
     
     // Cached references
-    public GameSession TheGameSession { get; private set; }
     Ball _theBall;
     
     // Start is called before the first frame update
     void Start()
     {
-        TheGameSession = FindObjectOfType<GameSession>();
+        FindObjectOfType<GameSession>();
         _theBall = FindObjectOfType<Ball>();
     }
 
