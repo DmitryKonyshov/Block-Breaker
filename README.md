@@ -8,4 +8,6 @@ Simple 2D arkanoid on Unity Game Engine
 [![GitHub stars](https://img.shields.io/github/stars/DmitryKonyshov/Block-Breaker)](https://github.com/DmitryKonyshov/Block-Breaker/stargazers)
 [![GitHub license](https://img.shields.io/github/license/DmitryKonyshov/Block-Breaker)](https://github.com/DmitryKonyshov/Block-Breaker/blob/master/LICENSE)
 
+The game is controlled using the mouse.
+
 Play 🎮 [Block Breaker](https://dmitrykonyshov.github.io/Block-Breaker/index.html)
